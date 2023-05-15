@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            text-align: center;
+        }
+
+        body {
+            background-color: lightcoral;
+        }
+
+        .type-title {
+            text-align: center;
+        }
+
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+            padding: 10px;
+        }
+
+        .image-grid img {
+            display: flex;
+            width: 100%;
+            aspect-ratio: 1/1;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+<h1 class="type-title"></h1>
+<div class="image-grid">
+</div>
+</body>
+</html>
